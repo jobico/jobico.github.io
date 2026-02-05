@@ -28,6 +28,30 @@ When reporting an issue, please include:
 5. **Expected behavior**: What you expected to happen
 6. **Actual behavior**: What actually happened
 7. **Error messages**: Full error output if applicable
+8. **Verbose messages***: Run the command with the extra `-Verbose` parameter
+
+You can use the following template, fill the details and send it to us:
+
+```
+PowerShell version:
+AppVentiX version:
+Operating System: Windows
+Steps to reproduce:
+
+
+Expected behavior:
+
+
+Actual behavior:
+
+
+Error messages:
+
+
+Verbose output:
+
+
+```
 
 ## Contact us
 
