@@ -20,6 +20,7 @@ nav_enabled: true
 
 # Aux links (top right)
 aux_links:
+  "AppVentiX": "https://appventix.com/"
   "Support": "https://support.appventix.com/"
 
 aux_links_new_tab: true

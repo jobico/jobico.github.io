@@ -28,18 +28,16 @@ Install-Module AppVentiX [-Scope CurrentUser] [-Force] [-AllowClobber]
 # Import the module
 Import-Module AppVentiX
 
-# (Optional) Verify connection to config share
-Get-AppVentiXConfigShare
-
-# (Optional) Verify your license is valid
-Test-AppVentiXIsLicensed
-
 # If custom credentials are required, you can run the following command to connect
 # E.g. if the current user does not have permissions to access the config share
 
 $Credential = Get-Credential -Message "Enter AppVentiX Config Share credentials"
 $ConfigShare = "\\fileserver.domain.local\config$"
 Set-AppVentiXConfigShare -ConfigShare $ConfigShare -Credential $Credential
+
+# (Optional) Verify your license is valid
+Test-AppVentiXIsLicensed
+
 ```
 
 ## Step 2: Identify Your SQL Server Details
